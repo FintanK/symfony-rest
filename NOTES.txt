@@ -1,0 +1,22 @@
+Commands Used
+-----------------
+
+sudo composer create-project symfony/framework-standard-edition symfony-rest 2.5.0
+composer require jms/serializer-bundle @stable
+composer require friendsofsymfony/rest-bundle @stable
+
+app/console generate:bundle (SymfonyREST/APIBundle)
+# Update AppKernel.php to include the bundles
+
+
+app/console doctrine:generate:entity (SymfonyRESTAPIBundle:User)
+username string 255
+password string 255
+email string 255
+
+Remaining...
+
+Add authentication
+Investigate sockets
+Implement other symfony components
+Unit and behavioural tests
