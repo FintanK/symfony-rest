@@ -1,6 +1,8 @@
 Symfony REST API Example
 ========================
 
+![](https://symfony.com/images/v5/opengraph/symfony_logo.png?v=4)
+
 This application provides a skeleton application and reference for creating a rest API with Symfony 2.5.
 It returns both JSON and XML depending on the content type set in each request to the endpoints.
 
